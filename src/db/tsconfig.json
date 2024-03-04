@@ -4,9 +4,12 @@
     "composite": true,
     "target": "ES2022",
     "module": "ES2022",
-    "rootDir": "../",
     "moduleResolution": "Node",
-    "baseUrl": "../",
+    "rootDir": "../",
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["../*"]
+    },
     "outDir": "../../build/db/",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,

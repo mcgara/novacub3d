@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { defaultOptions, createOptions, createOptionsEnv } from 'db/options'
+import { defaultOptions, createOptions, createOptionsEnv } from '@/db/options'
 
 describe('defaultOptions', () => {
   it('should be a object of type mysql:ConnectionOptions', () => {

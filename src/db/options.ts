@@ -1,6 +1,6 @@
 import type { ConnectionOptions } from 'mysql2'
 import { env } from 'process'
-import { isTruthy } from 'utils'
+import { isTruthy } from '@/utils'
 
 export const defaultOptions: ConnectionOptions = {
   host: '127.0.0.1',

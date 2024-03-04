@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { onceCallFn, useDotenv, isFalsy } from 'utils'
+import { onceCallFn, useDotenv, isFalsy } from '@/utils'
 
 describe('onceCallFn', () => {
   it('should first parameter and return be of type function', () => {
